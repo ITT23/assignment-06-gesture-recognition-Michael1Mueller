@@ -18,7 +18,7 @@ keyboard = Controller()
 
 # from prev assignment
 def apply_input():
-    # https://stackoverflow.com/questions/59825/how-to-retrieve-an-element-from-a-set-without-removing-it
+
     input_result = recog.recognize(points)
     input_condition = input_result.Name
     if input_condition == "triangle":
